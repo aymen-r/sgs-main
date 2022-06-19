@@ -280,7 +280,7 @@ const Nav2 = () => {
                   </Form>
                 </Modal.Body>
                 <Modal.Footer className="d-flex justify-content-between align-items-end">
-                  <QR text={"http://www.sgs.br.com"} />
+                  <QR text={"https://sgs-br.herokuapp.com/"} />
                   <Form className="d-flex w-50">
                     <FormControl
                       required
