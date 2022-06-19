@@ -1,0 +1,79 @@
+.inspc {
+  /* text-align: center; */
+  /* padding: 2rem 4rem; */
+}
+.inspc .hr {
+  opacity: 1;
+  height: 1.5px;
+  width: 20%;
+}
+
+.inspc img {
+  width: 100%;
+}
+.inspc .heading {
+  padding: 4rem 3rem;
+}
+.heading h5 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 2rem 0;
+}
+.heading h3 {
+  font-weight: 700;
+  font-size: 26px;
+  padding: 2rem 0;
+}
+.heading ul {
+  list-style: " - ";
+}
+
+.sectors {
+  margin: 5rem;
+}
+.ins-sect {
+  background: #f2f2f2;
+  border: 2px solid #fff !important;
+  padding: 0.75rem;
+  color: #c94c08;
+  font-weight: 700;
+}
+
+.expertise {
+  /* margin-bottom: 10px; */
+  height: 30vh;
+  justify-content: space-between;
+}
+.expertise-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: 100% 100% !important;
+  margin-bottom: 10px;
+}
+.exp1 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic1.jpg") no-repeat;
+}
+.exp2 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic2.jpg") no-repeat;
+}
+.exp3 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic3.jpg") no-repeat;
+}
+.exp4 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic4.jpg") no-repeat;
+}
+.exp5 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic5.jpg") no-repeat;
+}
+.exp6 {
+  background: linear-gradient(rgba(52, 52, 52, 0.7), rgb(52, 52, 52, 0.7)),
+    url("./pic6.jpg") no-repeat;
+}

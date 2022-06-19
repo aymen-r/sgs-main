@@ -1,0 +1,74 @@
+.inspc {
+  /* text-align: center; */
+  /* padding: 2rem 4rem; */
+}
+.inspc .hr {
+  opacity: 1;
+  height: 1.5px;
+  width: 20%;
+}
+
+.inspc img {
+  width: 100%;
+}
+.inspc .heading {
+  padding: 4rem 3rem;
+}
+.heading h5 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 2rem 0;
+}
+.heading h3 {
+  font-weight: 700;
+  font-size: 26px;
+  padding: 2rem 0;
+}
+.heading ul {
+  list-style: " - ";
+}
+
+.sectors {
+  margin: 5rem;
+}
+.ins-sect {
+  background: #f2f2f2;
+  border: 2px solid #fff !important;
+  padding: 0.75rem;
+  color: #c94c08;
+  font-weight: 700;
+}
+
+.touch {
+  /* min-height: 300px; */
+  width: 100%;
+  box-sizing: border-box;
+}
+.touch-left {
+  padding: 4rem;
+  background-color: #c94c08;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.touch-left button {
+  padding: 8px 15px;
+  border: none;
+}
+.touch-left button:hover {
+  background-color: black;
+  color: white;
+}
+.touch-left h3 {
+  margin-bottom: 30px;
+  color: white;
+}
+.touch-right {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

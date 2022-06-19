@@ -1,0 +1,40 @@
+.solutions {
+  padding: 48px 0px 24px;
+  padding: 3rem 0rem 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.solutions h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.svg-img {
+  width: 55px;
+}
+.sol-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sol-list li {
+  min-width: 500px;
+  padding: 50px;
+  cursor: pointer;
+}
+.sol-list li:hover {
+  color: #c94c08;
+}
+
+@media only screen and (max-width: 768px) {
+  .sol-list li {
+    padding: 30px;
+    min-width: 100%;
+  }
+}

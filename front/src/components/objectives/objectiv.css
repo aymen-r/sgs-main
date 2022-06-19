@@ -1,0 +1,59 @@
+.obj-numbers {
+  text-align: center;
+  padding: 24px;
+  padding: 1.5rem;
+  background: #f2f4f5 url("./homepage-mountains.jpg") no-repeat 100% 100%;
+  background-size: cover;
+}
+.obj-numbers h2 {
+  margin: 40px 0;
+}
+.objs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.obj {
+  padding: 20px;
+}
+.more-links button {
+  color: #fff !important;
+  background: #c94c08 !important;
+  border-color: #c94c08 !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  text-align: center;
+  font-size: 14px !important;
+  font-size: 0.875rem !important;
+  line-height: 1.71429em !important;
+  padding: 6px 18px;
+  min-height: 40px;
+  min-height: 2.5rem;
+  color: #fff;
+  border: 2px solid #000;
+  background: #000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .objs {
+    display: flex;
+    flex-direction: column;
+  }
+  .obj {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}

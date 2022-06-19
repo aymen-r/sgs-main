@@ -1,0 +1,52 @@
+.career {
+  background: #000 url("./careers-teaser-background.jpg") no-repeat 50% 100% !important;
+  background-size: cover !important;
+  padding: 60px 80px 60px;
+  padding: 3.75rem 5rem 3.75rem;
+  color: #fff;
+  text-align: center;
+}
+.frame {
+  padding: 3rem 3rem 1.125rem;
+  border: 1px solid #fff;
+}
+.frame button {
+  color: #fff !important;
+  background: #c94c08 !important;
+  border-color: #c94c08 !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  text-align: center;
+  font-size: 14px !important;
+  font-size: 0.875rem !important;
+  line-height: 1.71429em !important;
+  padding: 6px 18px;
+  min-height: 40px;
+  min-height: 2.5rem;
+  color: #fff;
+  border: 2px solid #000;
+  background: #000;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .career {
+    padding: 3.75rem 0;
+  }
+  .frame {
+    padding: 0;
+    border: none;
+  }
+}

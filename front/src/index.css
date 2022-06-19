@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  color: #000;
+  background: #d5d5d5 !important;
+}
+.Mcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#root {
+  background: #d5d5d5 !important;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.react-datepicker__input-container input {
+  width: 100%;
+  border: none;
+  height: 100%;
+  padding: 8px 10px;
+}
+.react-datepicker-ignore-onclickoutside {
+  width: 100%;
+}
