@@ -1,6 +1,6 @@
 {
   "name": "new-sgs",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://www.sgs.br.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
