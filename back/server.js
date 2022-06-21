@@ -3,6 +3,7 @@ import express from "express";
 import clientRouter from "./routes/clientRoutes.js";
 import "dotenv/config";
 import path from "path";
+import cors from "cors";
 import { fileURLToPath } from "url";
 
 mongoose
