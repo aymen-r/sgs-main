@@ -3,7 +3,7 @@ import express from "express";
 import clientRouter from "./routes/clientRoutes.js";
 import "dotenv/config";
 import path from "path";
-import cors from "cors";
+
 import { fileURLToPath } from "url";
 
 mongoose
@@ -39,9 +39,9 @@ app.use((err, req, res, next) => {
 // heroku start
 
 const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, "/front/build")));
+app.use(express.static(path.join(__dirname, "../front/build")));
 app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "/front/build/index.html"))
+  res.sendFile(path.join(__dirname, "../front/build/index.html"))
 );
 // heroku end
 
